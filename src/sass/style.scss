@@ -1,0 +1,75 @@
+body{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.book-card{
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid #262626;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #d9d8d4;
+    margin: 15px;
+    img{
+        width: 40%;
+        height: 100%;
+    }
+    .card-body{
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 55%;
+        justify-content: space-between;
+        
+        h5{
+            font-size: 25px;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h6{
+            font-size: 20px;
+            text-align: center;
+        }
+        p{
+            font-size: 18px;
+            text-align: center;
+        }
+
+        button{
+            outline: none;
+            border: none;
+            padding: 10px 0;
+            background-color: #68542b;
+            cursor: pointer;
+            font-weight: 600;
+            color: #ccc;
+            &:hover{
+                background-color: #5b4a27;
+            }
+            &:active{
+                background-color: #4a3b1fd0;
+            }
+        }
+        span{
+            font-weight: 600;
+        }
+    }
+}
+#head{
+    width: 100%;
+    height: 12vh;
+    background-color: #212121;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    h3{
+        cursor: pointer;
+    }
+}
